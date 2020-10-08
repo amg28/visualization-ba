@@ -1,5 +1,3 @@
-![App_Logo](src/img/rick-morty-banner.png)
-
 # Apache ECharts visualization demo
 Visualization demo is a demo project for showcasing features of Apache Echarts.
 It is created based on documentation:
