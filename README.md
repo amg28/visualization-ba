@@ -1,5 +1,6 @@
 # Apache ECharts visualization demo
 Visualization demo is a demo project for showcasing features of Apache Echarts.
+
 It is created based on documentation:
 https://echarts.apache.org/en/tutorial.html#Get%20Started%20with%20ECharts%20in%205%20minutes
 
