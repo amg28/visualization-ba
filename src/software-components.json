@@ -1,0 +1,1171 @@
+{ "components": [
+    {
+        "name": "Backend Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Database Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Network Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Encryption Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "UI Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Video Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Semantic Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Filesystem Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Smtp Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "l18n Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Search Algorithm Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Compression Component",
+        "role": "Developer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Blueprint Component",
+        "role": "Designer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Documentation Component",
+        "role": "Designer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Graphics Component",
+        "role": "Designer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "Wireframe Component",
+        "role": "Designer",
+        "amount": 1,
+        "requires": ""
+    },
+    {
+        "name": "UI Element",
+        "role": "Designer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Blueprint Component",
+                "role": "Designer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Graphics Component",
+                "role": "Designer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Responsive UI Component",
+        "role": "Designer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Wireframe Component",
+                "role": "Designer",
+                "amount": 2,
+                "requires": ""
+            },
+            {
+                "name": "UI Element",
+                "role": "Designer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "Blueprint Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Graphics Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Design Guidelines",
+        "role": "Designer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Documentation Component",
+                "role": "Designer",
+                "amount": 3,
+                "requires": ""
+            },
+            {
+                "name": "Responsive UI Component",
+                "role": "Designer",
+                "amount": 3,
+                "requires": [
+                    {
+                        "name": "Wireframe Component",
+                        "role": "Designer",
+                        "amount": 2,
+                        "requires": ""
+                    },
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 2,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UI Set",
+        "role": "Designer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Wireframe Component",
+                "role": "Designer",
+                "amount": 2,
+                "requires": ""
+            },
+            {
+                "name": "UI Element",
+                "role": "Designer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "Blueprint Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Graphics Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Interface Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Wireframe Component",
+                "role": "Designer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "UI Element",
+                "role": "Designer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "Blueprint Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Graphics Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frontend Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "UI Element",
+                "role": "Designer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Blueprint Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Graphics Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Interface Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Wireframe Component",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 2,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Backend Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Network Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Input Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "UI Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Storage Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Filesystem Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Content Management Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Frontend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interface Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Wireframe Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "UI Element",
+                                "role": "Designer",
+                                "amount": 2,
+                                "requires": [
+                                    {
+                                        "name": "Blueprint Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    },
+                                    {
+                                        "name": "Graphics Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Backend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Input Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "UI Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Video Playback Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Frontend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interface Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Wireframe Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "UI Element",
+                                "role": "Designer",
+                                "amount": 2,
+                                "requires": [
+                                    {
+                                        "name": "Blueprint Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    },
+                                    {
+                                        "name": "Graphics Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Backend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Video Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Seo Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Frontend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interface Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Wireframe Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "UI Element",
+                                "role": "Designer",
+                                "amount": 2,
+                                "requires": [
+                                    {
+                                        "name": "Blueprint Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    },
+                                    {
+                                        "name": "Graphics Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Semantic Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Authentication Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Database Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Encryption Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Email Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Smtp Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Database Layer",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Database Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Network Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Notification Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "UI Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Email Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Smtp Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Payment Gateaway Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "API Client Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Database Layer",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Backend Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Database Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Network Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Backend Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Backend Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Network Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compression Component",
+                        "role": "Developer",
+                        "amount": 2,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Database Layer",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Database Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Authentication Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Backend Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Network Component",
+                                "role": "Developer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Database Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Encryption Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Localization Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Frontend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interface Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Wireframe Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "UI Element",
+                                "role": "Designer",
+                                "amount": 2,
+                                "requires": [
+                                    {
+                                        "name": "Blueprint Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    },
+                                    {
+                                        "name": "Graphics Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "l18n Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Search Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Database Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Search Algorithm Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Bandwidth Compression Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Compression Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Backend Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            },
+            {
+                "name": "Network Component",
+                "role": "Developer",
+                "amount": 1,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "API Client Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Database Layer",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Database Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Backend Module",
+                "role": "Lead Developer",
+                "amount": 1,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Compression Component",
+                "role": "Developer",
+                "amount": 2,
+                "requires": ""
+            }
+        ]
+    },
+    {
+        "name": "Code Optimization Module",
+        "role": "Lead Developer",
+        "amount": 1,
+        "requires": [
+            {
+                "name": "Frontend Module",
+                "role": "Lead Developer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "UI Element",
+                        "role": "Designer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Blueprint Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "Graphics Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interface Module",
+                        "role": "Lead Developer",
+                        "amount": 1,
+                        "requires": [
+                            {
+                                "name": "Wireframe Component",
+                                "role": "Designer",
+                                "amount": 1,
+                                "requires": ""
+                            },
+                            {
+                                "name": "UI Element",
+                                "role": "Designer",
+                                "amount": 2,
+                                "requires": [
+                                    {
+                                        "name": "Blueprint Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    },
+                                    {
+                                        "name": "Graphics Component",
+                                        "role": "Designer",
+                                        "amount": 1,
+                                        "requires": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Backend Module",
+                "role": "Lead Developer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            },
+            {
+                "name": "Database Layer",
+                "role": "Lead Developer",
+                "amount": 2,
+                "requires": [
+                    {
+                        "name": "Backend Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Database Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    },
+                    {
+                        "name": "Network Component",
+                        "role": "Developer",
+                        "amount": 1,
+                        "requires": ""
+                    }
+                ]
+            }
+        ]
+    }
+]}
